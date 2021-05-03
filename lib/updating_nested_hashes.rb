@@ -66,9 +66,7 @@ def add_characters
    epic_tragedy[:additional_characters] = []
    epic_tragedy[:additional_characters][0] = {name: "Prince Escalus"} 
    epic_tragedy[:additional_characters][1] = {name: "Apothecary"}
-   pp epic_tragedy
+
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
-
-add_characters
